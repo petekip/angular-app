@@ -13,9 +13,9 @@
     "prerender": "ng run angular-starter:prerender"
   },
   "author": {
-    "name": "danny",
-    "email": "danny@ganatan.com",
-    "url": "https://www.ganatan.com/"
+    "name": "koech",
+    "email": "peter.koech@gmail.com",
+    "url": "https://www.cloudr.africa/"
   },
   "private": true,
   "dependencies": {
