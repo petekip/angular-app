@@ -21,7 +21,7 @@ phases:
       # - echo building...
       # - ng build --prod
       - ng build
-      - ng run angular-app:serve-ssr
+     
 artifacts:
   files:
     - "**/*"
