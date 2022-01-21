@@ -19,9 +19,10 @@ phases:
     commands:
       # - echo testing...
       # - echo building...
-      - ng build --prod
+      # - ng build --prod
+      - ng build:ssr
 artifacts:
   files:
     - "**/*"
   discard-paths: yes
-  #base-directory: dist/angular-app
+  base-directory: dist/angular-app
