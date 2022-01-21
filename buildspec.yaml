@@ -24,4 +24,4 @@ artifacts:
   files:
     - "**/*"
   discard-paths: yes
-  base-directory: dist/angular-app
+  #base-directory: dist/angular-app
