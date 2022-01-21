@@ -1,5 +1,5 @@
 {
-  "name": "angular-starter",
+  "name": "angular-app",
   "version": "13.1.1",
   "scripts": {
     "ng": "ng",
@@ -7,10 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run angular-starter:serve-ssr",
-    "serve:ssr": "node dist/angular-starter/server/main.js",
-    "build:ssr": "ng build && ng run angular-starter:server",
-    "prerender": "ng run angular-starter:prerender"
+    "dev:ssr": "ng run angular-app:serve-ssr",
+    "serve:ssr": "node dist/angular-app/server/main.js",
+    "build:ssr": "ng build && ng run angular-app:server",
+    "prerender": "ng run angular-app:prerender"
   },
   "author": {
     "name": "koech",
